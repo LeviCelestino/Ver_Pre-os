@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silly Armarinho</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        header{
+        background-color: #000000FF;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        color: rgb(255, 255, 255);
+        height: 100px;
+        position: relative;
+        }
+        #logo{
+            color: white;
+            max-width: 20px;
+            padding-left: 20px;
+        }
+        span{
+            margin-left: 50px;
+            
+        }
+        #barra-pesquisa{
+
+            background-color: palevioletred;
+            text-align: center;
+        }
+        ul{
+            list-style-type: none;
+            padding: px;
+            text-decoration: none;
+        }
+        .cetim{
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            padding-left: 20px;
+            font-weight: bolder;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(0, 0, 0)    ;
+        }
+        a:hover{
+        
+            padding: 10px;
+            background-color: blueviolet;
+            color: black;
+        }
+        .cetim{
+            color: black;
+            
+        }
+        section{
+            background-color: #000000FF;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: auto;
+            padding: 0;
+        }
+        #n2{
+            margin-top: 20px;
+           
+            max-width: 120px;
+            
+        }
+        #n3{
+            margin-top: 20px;
+            
+            max-width: 120px;
+            
+            
+        }
+        #n4{
+            margin-top: 20px;
+            
+            max-width: 120px;
+            
+        }
+        #n5{
+            margin-top: 20px;
+            
+            max-width: 120px;
+            
+            overflow: hidden;
+            
+        }
+        .quebra{
+            color: wheat;
+            text-align: center;
+        }
+       ul{
+           display: flex;
+           flex-direction: column;
+               
+       }
+       .cetim{
+           margin: auto;
+       }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div id="logo"> <h1> <span>Silly</span> Armarinho</h1></div>
+    </header>   
+    <nav>
+        <div id="barra-pesquisa">
+            <ul>
+                <li class = 'cetim'> Cetim</li>
+            </ul>
+        </div>
+    </nav>
+        <section>
+            <ul id = 'sec'>
+                <li><img id = 'n2' src="./fita_cetim_progresso_01.jpg" alt=""><div class="quebra">Cetim n°2 - 10m
+                    <div>R$3,00</div>
+                </div></li>
+                <li><img id ='n3' src="./cetim-n3.webp" alt=""><div class="quebra">Cetim n°3 - 10m
+                    <div>R$4,50</div></li>
+                    <li><img id ='n4' src="./cetimn5.jpg" alt=""><div class="quebra">Cetim n°5 - 10m
+                    <div>R$5,30</div></li>
+                    <li><img id ='n5' src="./cetim9.jpg" alt=""><div class="quebra">Cetim n°9 - 10m
+                        <div>R$8,90</div></li>
+            </ul>
+
+        </section>
+</body>
+</html>
